@@ -2,7 +2,7 @@
 
 ## Reference
 
-- Mathematical background: Jang, Sun, and Mizutani, "[Neuro-Fuzzy and Soft Computing](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=633847)".
+- Mathematical background: Jang, Sun, and Mizutani, "[Neuro-Fuzzy and Soft Computing](https://ieeexplore.ieee.org/document/633847)".
 
 - Datasets: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets.php).
 
@@ -47,7 +47,7 @@ For the meaning of the PSO parameters `K`, `phi`, `vel_fact`, `conf_type`, `IntV
 
 ## Examples
 
-There are four examples in *test.py*: plant, stock, wine, pulsar. The values common to (most of) all examples are:
+There are four examples in *test.py*: plant, stock, wine, pulsar. The values common to (most of) all are:
 
 ```python
 problem = None
@@ -80,7 +80,7 @@ The dataset has 4 features (inputs), 1 label (output), and 9568 samples.
 
 The ANFIS has a layout of [1, 1, 1, 1] and 17 variables.
 
-Correlation predicted/actual values: 0.965 (training), 0.961 (test).
+Predicted/actual correlation values: 0.965 (training), 0.961 (test).
 
 ### Multi-label continuous problem example: stock
 
@@ -98,7 +98,7 @@ The dataset has 3 features (inputs), 2 labels (outputs), and 536 samples.
 
 The ANFIS has a layout of [2, 2, 2] and 82 variables.
 
-Correlation predicted/actual values: 0.883 (training), 0.871 (test).
+Predicted/actual correlation values: 0.883 (training), 0.871 (test).
 
 ### Multi-class classification problem example: wine
 
@@ -116,7 +116,7 @@ The dataset has 2 features (inputs), 6 classes (outputs), and 1599 samples.
 
 The ANFIS has a layout of [3, 2] and 123 variables.
 
-Accuracies predicted/actual values: 58.2% (training), 59.8% (test).
+Predicted/actual accuracy values: 58.2% (training), 59.8% (test).
 
 ### Multi-class classification problem example: pulsar
 
@@ -134,6 +134,6 @@ The dataset has 3 features (inputs), 2 classes (outputs), and 17898 samples.
 
 The ANFIS has a layout of [3, 4, 2] and 219 variables.
 
-Accuracies predicted/actual values: 97.9% (training), 97.7% (test).
+Predicted/actual accuracy values: 97.9% (training), 97.7% (test).
 
 The initial and final premise membership functions for this example can be seen [here](./Code_Python/MFs_Pulsar_Example.pdf).

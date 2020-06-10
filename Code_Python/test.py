@@ -9,7 +9,7 @@ References
 ----------
 
 - Mathematical background: Jang, Sun, Mizutani, "Neuro-Fuzzy and Soft Computing"
-  @ https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=633847.
+  @ https://ieeexplore.ieee.org/document/633847.
 
 - Datasets: UCI Machine Learning Repository
   @ https://archive.ics.uci.edu/ml/datasets.php.
