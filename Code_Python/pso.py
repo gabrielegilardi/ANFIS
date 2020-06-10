@@ -202,7 +202,7 @@ def PSO(func, LB, UB, nPop=40, epochs=500, K=0, phi=2.05, vel_fact=0.5,
 
     # Number of particles in the hypersphere of radius <rad> around the best
     # particle
-    dist = np.linalg.norm(delta, axis=1)
+    dist = np.linalg.norm(delta/np.sqrt(nPop), axis=1)
     in_rad = (dist < rad).sum()
 
     # Return info about the solution
