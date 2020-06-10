@@ -135,3 +135,5 @@ The dataset has 3 features (inputs), 2 classes (outputs), and 17898 samples.
 The ANFIS has a layout of [3, 4, 2] and 219 variables.
 
 Accuracies predicted/actual values: 97.9% (training), 97.7% (test).
+
+The initial and final premise membership functions for this example can be seen [here](./Code_Python/MFs_Pulsar_Example.pdf).
