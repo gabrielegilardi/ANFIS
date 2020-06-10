@@ -107,7 +107,7 @@ A_par = [-10.0, 10.0]
 if (example == 'plant'):
     # Dataset: 4 features (inputs), 1 label (output), 9568 samples
     # ANFIS: layout of [1, 1, 1, 1], 17 variables
-    # Correlation predicted/actual values: 0.965 (training), 0.961 (test)
+    # Predicted/actual correlation values: 0.965 (training), 0.961 (test)
     # https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant
     data_file = 'plant_dataset.csv'
     n_mf = [1, 1, 1, 1]
@@ -118,7 +118,7 @@ if (example == 'plant'):
 elif (example == 'stock'):
     # Dataset: 3 features (inputs), 2 labels (outputs), 536 samples
     # ANFIS: layout of [2, 2, 2], 82 variables
-    # Correlation predicted/actual values: 0.883 (training), 0.871 (test)
+    # Predicted/actual correlation values: 0.883 (training), 0.871 (test)
     # https://archive.ics.uci.edu/ml/datasets/ISTANBUL+STOCK+EXCHANGE
     data_file = 'stock_dataset.csv'
     n_mf = [2, 2, 2]
@@ -130,7 +130,7 @@ elif (example == 'stock'):
 elif (example == 'wine'):
     # Dataset: 2 features (inputs), 6 classes (outputs), 1599 samples
     # ANFIS: layout of [3, 2], 123 variables
-    # Accuracies predicted/actual values: 58.2% (training), 59.8% (test).
+    # Predicted/actual accuracy values: 58.2% (training), 59.8% (test).
     # https://archive.ics.uci.edu/ml/datasets/Wine+Quality
     data_file = 'wine_dataset.csv'
     problem = 'C'
@@ -142,7 +142,7 @@ elif (example == 'wine'):
 elif (example == 'pulsar'):
     # Dataset: 3 features (inputs), 2 classes (outputs), 17898 samples
     # ANFIS: layout of [3, 4, 2], 219 variables
-    # Accuracies predicted/actual values: 97.9% (training), 97.7% (test).
+    # Predicted/actual accuracy values: 97.9% (training), 97.7% (test).
     # https://archive.ics.uci.edu/ml/datasets/HTRU2
     data_file = 'pulsar_dataset.csv'
     problem = 'C'
