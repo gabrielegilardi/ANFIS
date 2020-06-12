@@ -1,6 +1,6 @@
 """
-Adaptive Neuro-fuzzy Inference System (ANFIS) class for regression problems
-(based on the Takagi–Sugeno fuzzy inference system.)
+Multivariate Regression and Classification Using an Adaptive Neuro-Fuzzy
+Inference System (Takagi-Sugeno) and Particle Swarm Optimization.
 
 Copyright (c) 2020 Gabriele Gilardi
 

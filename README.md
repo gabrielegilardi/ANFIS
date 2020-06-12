@@ -1,4 +1,4 @@
-# Adaptive Neuro-fuzzy Inference System (ANFIS) for regression problems using the Takagi–Sugeno fuzzy inference system
+# Multivariate Regression and Classification Using an Adaptive Neuro-Fuzzy Inference System (Takagi-Sugeno) and Particle Swarm Optimization
 
 ## Reference
 
@@ -9,7 +9,7 @@
 ## Characteristics
 
 - The code has been written and tested in Python 3.7.7.
-- Multi-input/multi-output (multivariate) adaptive neuro-fuzzy inference system implementation for regression problems using the Takagi–Sugeno fuzzy inference system.
+- Multi-input/multi-output (multivariate) adaptive neuro-fuzzy inference system (ANFIS) implementation for regression and classification.
 - Quadratic cost function for continuous problems and cross-entropy cost function for classification problems.
 - Classes in classification problems are determined automatically.
 - Sigmoid and cross-entropy function are computed using a numerically stable implementation.
