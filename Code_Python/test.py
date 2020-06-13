@@ -272,7 +272,7 @@ print("A =")
 print(A)
 
 # Plot resulting MFs
-# utl.plot_mfs(n_mf, mu, s, c, Xn_tr)
+utl.plot_mfs(n_mf, mu, s, c, Xn_tr)
 
 # Evaluate training and test datasets with best learner
 # (in continuous problems these are already scaled values)

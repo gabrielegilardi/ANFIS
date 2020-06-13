@@ -225,13 +225,11 @@ def plot_mfs(n_mf, mu, s, c, X):
         # Format and show all MFs for this feature/input
         plt.grid(b=True)
         plt.title('Feature nr. ' + str(j+1))
-        plt.title('Example: pulsar')
         plt.xlabel('$X_' + str(j+1) + '$')
         plt.ylabel('$MF$')
         plt.ylim(0, 1)
         plt.legend(names)
         plt.show()
-        plt.close()
 
         # Next feature/input
         i1 = idx[j]
